@@ -14,7 +14,7 @@ int main(void){
     printf("Please type second word: ");
     scanf("%100s", second_word);  // No need for '&' since second_word is an array
 
-    if(compr(first_word, second_word) == 0){
+    if(cmpr(first_word, second_word) == 0){
         printf("These are the same\n");
     }
     else{
